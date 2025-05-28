@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#startScreen {
+    text-align: center;
+}
+
+#characterCreation {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#paintCanvas {
+    border: 1px solid black;
+    margin: 10px;
+    background: white;
+}
+
+#tools {
+    margin: 10px;
+}
+
+#gameScreen {
+    position: relative;
+}
+
+#gameMap {
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.player {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transition: all 0.2s;
+}
+
+.classroom {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    background-color: #ddd;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+#lesson {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 100;
+}
